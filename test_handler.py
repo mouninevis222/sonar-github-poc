@@ -4,7 +4,7 @@ import index
 
 class TestHandlerCase(unittest.TestCase):
 
-    def test_response(self):
+    def test_response(self)
         print("testing response.")
         result = index.handler(None, None)
         print(result)
@@ -13,5 +13,5 @@ class TestHandlerCase(unittest.TestCase):
         self.assertIn('Helloworld!!! 15-April-21', result['body'])
 
 
-__name__ == '__main__':
+if __name__ == '__main__':
     unittest.main()
