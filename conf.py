@@ -65,7 +65,7 @@ latex_documents = [(master_doc, f"Flask-{version}.tex", html_title, author, "man
 # Local Extensions -----------------------------------------------------
 
 
-def github_link(name, rawtext, text, lineno, inliner, options=None, content=None):
+ github_link(name, rawtext, text, lineno, inliner, options=None, content=None):
     app = inliner.document.settings.env.app
     release = app.config.release
     base_url = "https://github.com/pallets/flask/tree/"
