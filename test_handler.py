@@ -13,5 +13,5 @@ class TestHandlerCase(unittest.TestCase):
         self.assertIn('Helloworld!!! 15-April-21', result['body'])
 
 
-if __name__ == '__main__':
+__name__ == '__main__':
     unittest.main()
