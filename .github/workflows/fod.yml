@@ -1,7 +1,7 @@
 ################################################################################################################################################ 
 # Fortify lets you build secure software fast with an appsec platform that automates testing throughout the DevSecOps pipeline. Fortify static,#
 # dynamic, interactive, and runtime security testing is available on premises or as a service. To learn more about Fortify, start a free trial #
-# or contact our sales team, visit microfocus.com/appsecurity.                                                                                 #
+# or contact our sales team, visit microfocus.com/appsecurity.      ---                                                                           #
 #                                                                                                                                              #
 # Use this workflow template as a basis for integrating Fortify on Demand Static Application Security Testing(SAST) into your GitHub workflows.#
 # This template demonstrates the steps to prepare the code+dependencies, initiate a scan, download results once complete and import into       #
@@ -17,10 +17,10 @@ name: Fortify on Demand Scan
 on: 
   workflow_dispatch:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [master]
+    branches: [release/dev]
   
 jobs:
   FoD-SAST-Scan:
