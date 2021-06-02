@@ -1,3 +1,5 @@
+
+
 Skip to content
 Search or jump to…
 
@@ -40,6 +42,10 @@ from pallets_sphinx_themes import ProjectLink
 
 # Project --------------------------------------------------------------
 
+#project = "Flask"
+#copyright = "2010 Pallets"
+#author = "Pallets"
+#release, version = get_version("Flask")
 project = "Flask"
 copyright = "2010 Pallets"
 author = "Pallets"
@@ -66,7 +72,8 @@ intersphinx_mapping = {
     "wtforms": ("https://wtforms.readthedocs.io/", None),
     "blinker": ("https://pythonhosted.org/blinker/", None),
 }
-issues_github_path = "pallets/flask"
+release/dev
+#issues_github_path = "pallets/flask"
 
 # HTML -----------------------------------------------------------------
 
@@ -144,3 +151,4 @@ Training
 Blog
 About
 Loading complete
+
