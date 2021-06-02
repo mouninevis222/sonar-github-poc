@@ -1,3 +1,41 @@
+
+
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@mouninevis222 
+mouninevis222
+/
+Sample_python_Application
+forked from pallets/flask
+0
+0
+14.3k
+Code
+Pull requests
+Actions
+Projects
+Security
+2
+Insights
+Settings
+Sample_python_Application/docs/conf.py /
+@davidism
+davidism update project links
+Latest commit 3cd615a on Feb 24
+ History
+ 9 contributors
+@mitsuhiko@davidism@greyli@grampajoe@muattiyah@adamchainz@untitaker@Parkayun@DasIch
+We found potential security vulnerabilities in your dependencies.
+Only the owner of this repository can see this message.
+
+97 lines (79 sloc)  3.21 KB
+  
 import packaging.version
 from pallets_sphinx_themes import get_version
 from pallets_sphinx_themes import ProjectLink
@@ -8,6 +46,10 @@ from pallets_sphinx_themes import ProjectLink
 #copyright = "2010 Pallets"
 #author = "Pallets"
 #release, version = get_version("Flask")
+project = "Flask"
+copyright = "2010 Pallets"
+author = "Pallets"
+release, version = get_version("Flask")
 
 # General --------------------------------------------------------------
 
@@ -30,6 +72,7 @@ intersphinx_mapping = {
     "wtforms": ("https://wtforms.readthedocs.io/", None),
     "blinker": ("https://pythonhosted.org/blinker/", None),
 }
+release/dev
 #issues_github_path = "pallets/flask"
 
 # HTML -----------------------------------------------------------------
@@ -108,4 +151,4 @@ Training
 Blog
 About
 Loading complete
-© 2021 GitHub, Inc.
+
