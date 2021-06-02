@@ -73,7 +73,7 @@ jobs:
           FOD_RELEASE_ID: ${{ secrets.FOD_RELEASE_ID }}
           FOD_URL: "https://trial.fortify.com/"
           FOD_API_URL: "https://api.trial.fortify.com/"
-          FOD_UPLOADER_OPTS: "-ep 1 -pp 0 -I 1 -apf"
+          FOD_UPLOADER_OPTS: "-ep 2 -pp 0 -I 1 -apf"
           FOD_UPLOADER_NOTES: 'Triggered by GitHub Actions (${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})'
       
       # Once scan completes, pull SAST issues from Fortify on Demand and generate SARIF output.
